@@ -1,0 +1,44 @@
+@import "fonts.scss";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+header,
+footer {
+  flex: 0 0 auto;
+}
+main {
+  flex: 1 0 auto;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url("@img/image.jpg") no-repeat center center / cover;
+  font-family: Gilroy, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 3px 2px 5px #000;
+  text-align: center;
+  span {
+    display: block;
+    color: crimson;
+    text-align-last: right;
+  }
+  img {
+    max-width: 450px;
+    width: 100%;
+    border-width: 2px;
+    border-color: #f0f;
+    border-style: solid;
+  }
+}
