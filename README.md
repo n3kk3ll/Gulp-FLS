@@ -36,13 +36,35 @@ Author: FLS
 * webpack - packs JavaScript modules. 
 * webpack-stream - run webpack as a stream.
 
-## How to use:
+## If you starting a new project using this bundle
 
-  * To run Gulp as a developer use command:
-  
-        npm run dev
+1. You have to create new project with these files included:
+
+    * ***gulp folder***;
+    * ***gulpfile.js***;
+    * ***package.json***;
+    * ***src folder***, but you can create it by yourself. **Be very careful and follow existing architecture to not broke anything!**
     
+2. Open terminal in your new project folder.
+
+**Pay your attention to folder you are calling terminal from!**
+
+3. Run 
+        
+        npm i
+
+**This command will install all dependencies scored in *package.json* file.**
+
+### What next?
+
+* If you have to work with your new project, as expected, you should run your bundle with command described above:
+        
+        npm run dev
+        
 **You shall not get minified CSS or JS, any converted to WebP images, because you don't need it in developer mode!**
+
+## How to use:
+   
   * To run Gulp in production mode use: 
   
         npm run build
@@ -71,29 +93,6 @@ Author: FLS
     
 **Your project will be uploaded in your FTP server immediately. Don't forget to enter your server login and password in config file!**
 
-### If you starting a new project using this bundle
-
-1. You have to create new project with these files included:
-
-    * ***gulp folder***;
-    * ***gulpfile.js***;
-    * ***package.json***;
-    * ***src folder***, but you can create it by yourself. **Be very careful and follow existing architecture to not broke anything!**
+**Just do it!**
     
-2. Open terminal in your new project folder.
-
-**Pay your attention to folder you are calling terminal from!**
-
-3. Run 
-        
-        npm i
-
-**This command will install all dependencies scored in *package.json* file.**
-### What next?
-* If you have to work with your new project, as expected, you should run your bundle with command described above:
-        
-        npm run dev
-
-    **Just do it!**
-    
-    **Happy coding!**
+**Happy coding!**
