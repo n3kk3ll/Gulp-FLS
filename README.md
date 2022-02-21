@@ -83,6 +83,7 @@ Author: FLS
 2. Open terminal in your new project folder.
 
 **Pay your attention to folder you are calling terminal from!**
+
 3. Run 
         npm i
 
