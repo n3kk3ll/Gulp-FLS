@@ -91,6 +91,7 @@ Author: FLS
 **This command will install all dependencies scored in *package.json* file.**
 ### What next?
 * If you have to work with your new project, as expected, you should run your bundle with command described above:
+        
         npm run dev
 
     **Just do it!**
