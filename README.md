@@ -85,6 +85,7 @@ Author: FLS
 **Pay your attention to folder you are calling terminal from!**
 
 3. Run 
+        
         npm i
 
 **This command will install all dependencies scored in *package.json* file.**
