@@ -81,9 +81,11 @@ Author: FLS
     * ***src folder***, but you can create it by yourself. **Be very careful and follow existing architecture to not broke anything!**
     
 2. Open terminal in your new project folder.
+
 **Pay your attention to folder you are calling terminal from!**
 3. Run 
         npm i
+
 **This command will install all dependencies scored in *package.json* file.**
 ### What next?
 * If you have to work with your new project, as expected, you should run your bundle with command described above:
