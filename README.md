@@ -80,7 +80,8 @@ Author: FLS
     * ***package.json***;
     * ***src folder***, but you can create it by yourself. **Be very careful and follow existing architecture to not broke anything!**
     
-2. Open terminal in your new project folder. **Pay your attention to folder you are calling terminal from!**
+2. Open terminal in your new project folder.
+**Pay your attention to folder you are calling terminal from!**
 3. Run 
         npm i
 **This command will install all dependencies scored in *package.json* file.**
